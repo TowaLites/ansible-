@@ -1,0 +1,8 @@
+1. install depencies-  download epel repo && install the epel repo && install packages (git, ansible, python, python-pip,)
+2. install ansible
+2. create user and password -useradd
+4. navigate suders file ( visudo) to add user under root ( ansiadmin ALL=(ALL) PASSWD: ALL 
+5. now the user can use (sudo to run commands)
+6. navigate sshd confi file ( vi /etc/ssh/ssh_config) to change password authentication to "yes" from "no"
+7. the user( ansiadmi) will be able to connect to other machines via ssh
+
